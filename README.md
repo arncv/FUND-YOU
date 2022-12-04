@@ -32,7 +32,7 @@
 <h3 align="center">FUND YOU!</h3>
 
   <p align="center">
-    patreon killer!
+    open-source patreon killer!
     <br />
     <a href="https://www.youtube.com/watch?v=dI91TXN9L9g"><strong>Demo Video Link! »</strong></a>
     <br />

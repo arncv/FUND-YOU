@@ -25,7 +25,7 @@
     <img src="img/logo.png" alt="Logo" width="300" height="240">
   </a>
 
-<h3 align="center">FUND YOU</h3>
+<h3 align="center">FUND YOU!</h3>
 
   <p align="center">
     patreon killer!

@@ -1,4 +1,8 @@
-
+<div align="center">
+  <a href="https://github.com/arncv/FUND-YOU">
+    <img src="img/meme.png" alt="meme" width="600" height="480">
+  </a>
+ </div>
 
 
 <!-- PROJECT SHIELDS -->

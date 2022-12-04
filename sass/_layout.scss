@@ -1,0 +1,89 @@
+.container {
+  max-width: 120rem; //if vw is less than 120 it occupies 100% width
+  // min-height: 50rem;
+  background-color: var(--Grey-light-2);
+  margin: 8rem auto;
+  box-shadow: 3rem 3rem 4rem rgba(0, 0, 0, 0.5);
+  @include respond(tab-land) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: white;
+  border-bottom: 1px solid var(--Grey-light-2);
+  display: flex;
+  justify-content: space-between; //main-axis
+  align-items: center; //cross axis
+
+  @include respond(phone-mini) {
+    flex-wrap: wrap;
+    height: 10rem;
+    align-content: space-around;
+  }
+}
+.content {
+  display: flex;
+  @include respond(tab-land) {
+    flex-direction: column;
+  }
+}
+.sidebar {
+  background-color: var(--Grey-dark-1);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 18%;
+  //flex:0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // height: 80rem;
+}
+.hotel-view {
+  flex-grow: 1; //occupy remaining space
+}
+.details {
+  display: flex;
+  padding: 3.5rem;
+  background-color: var(--Grey-light-1);
+  font-size: 1.4rem;
+  @include respond(tab-land) {
+    padding: 3rem;
+  }
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
+
+.description {
+  background-color: yellow;
+  flex: 1;
+
+  margin-right: 3.5rem;
+  background-color: white;
+  box-shadow: 0 2rem 5rem var(--Grey-light-4);
+  padding: 3rem;
+
+  @include respond(tab-land) {
+    margin-right: 3rem;
+    padding: 2rem;
+  }
+  @include respond(phone) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+.user-reviews {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include respond(phone) {
+  }
+}
+.hidden {
+  display: none;
+}
